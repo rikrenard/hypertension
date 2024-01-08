@@ -190,13 +190,11 @@
           "id": "to",
           "label": "To",
           "options": {
-            "data_point_definition_ids": [
-              "_qQCveb4pkoF"
-            ]
+            "data_point_definition_ids": []
           },
           "required": true,
           "type": "string",
-          "value": "{{data_point:_qQCveb4pkoF}}"
+          "value": "rik.renard@hotmail.com"
         },
         {
           "description": "The name of the template you created in the Mailgun web portal.",
@@ -242,8 +240,8 @@
       "extension_data_points": [],
       "extension_data_point_mappings": [],
       "last_updated": {
-        "date": "2024-01-08T11:33:42.189Z",
-        "user_id": "818jFr2HRKfSCqxbxsX4o"
+        "date": "2024-01-08T12:55:58.297Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
       }
     }
   },
