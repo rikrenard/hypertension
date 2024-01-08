@@ -1,0 +1,26 @@
+[
+  {
+    "type": "sticky_note",
+    "sticky_note": {
+      "_key": "OGDmtio5ngza",
+      "definition_id": "OGDmtio5ngza",
+      "track_definition_id": "Rvhc9wGksHtO",
+      "body": {
+        "format": "slate",
+        "text": "[{\"type\":\"p\",\"children\":[{\"text\":\"Systolic Blood Pressure = 145\",\"bold\":true}]},{\"type\":\"p\",\"children\":[{\"bold\":true,\"text\":\"Diastolic Blood Pressure = 90\"}]}]"
+      },
+      "coordinates": {
+        "x": 240,
+        "y": -48
+      },
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T10:03:28.263Z"
+      },
+      "last_updated": {
+        "date": "2024-01-04T10:03:49.200Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      }
+    }
+  }
+]

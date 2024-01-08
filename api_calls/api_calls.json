@@ -1,0 +1,50 @@
+[
+  {
+    "type": "api_call",
+    "api_call": {
+      "_key": "E8Ie2WBBa1PM",
+      "definition_id": "E8Ie2WBBa1PM",
+      "api_type": "REST",
+      "method": "GET",
+      "key": "ApiCall",
+      "title": "API Call",
+      "headers": [
+        {
+          "key": "Authorization",
+          "value": "{{{constant:rIwgCIcET5SL}}}"
+        }
+      ],
+      "body": {
+        "slate": "[{\"type\":\"code_block\",\"lang\":\"json\",\"children\":[{\"type\":\"code_line\",\"children\":[{\"text\":\"{}\"}]}]}]",
+        "plaintext": "{}",
+        "html": "",
+        "dynamic_variable_definition_ids": [],
+        "stakeholder_definition_ids": [],
+        "constant_ids": []
+      },
+      "mappings": [
+        {
+          "data_point_definition_id": "8v2ynEUjRAUS",
+          "id": "xZFf8FgNZoGPumljz_fKQ",
+          "response_key": "$.data.systolic",
+          "first_match_only": null
+        },
+        {
+          "data_point_definition_id": "yS8tQRt1o1HG",
+          "id": "3iTVErZ4nt_ZPyAAnLjIV",
+          "response_key": "$.data.diastolic",
+          "first_match_only": null
+        }
+      ],
+      "created": {
+        "user_id": "818jFr2HRKfSCqxbxsX4o",
+        "date": "2024-01-05T11:13:08.086Z"
+      },
+      "last_updated": {
+        "date": "2024-01-05T11:16:53.233Z",
+        "user_id": "818jFr2HRKfSCqxbxsX4o"
+      },
+      "endpoint": "https://webhook.site/c8e1ada6-ae87-4a60-85ca-074d0827fc7e"
+    }
+  }
+]

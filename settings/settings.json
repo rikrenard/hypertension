@@ -1,0 +1,126 @@
+[
+  {
+    "type": "settings",
+    "pathway_settings": {
+      "_key": "GkRFZQn8-4Ds",
+      "definition_id": "GkRFZQn8-4Ds",
+      "reminders": {
+        "amount": 0,
+        "delay": {
+          "amount": 1,
+          "unit": "day"
+        }
+      },
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:12:35.465Z"
+      },
+      "last_updated": {
+        "date": "2024-01-08T10:21:10.570Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      },
+      "plugins": {
+        "awell": {
+          "apiKey": {
+            "id": "CgMiYzk49uVd",
+            "label": "API key",
+            "obfuscated": true,
+            "value": "U2FsdGVkX19Fvs5MkgyREHF7jhaTJwI7fXDDbqE6VjZ5K8xV+7fNmDLurt2zJD3XMcEdmsLZmCF8+0wnHAhjYQ=="
+          },
+          "apiUrl": {
+            "id": "PBSm1cn5AbU8",
+            "label": "API url",
+            "obfuscated": false,
+            "value": "https://api.sandbox.awellhealth.com/orchestration/m2m/graphql"
+          }
+        },
+        "healthie": {
+          "apiKey": {
+            "id": "lds6TXN86cGl",
+            "label": "API key",
+            "obfuscated": true,
+            "value": "U2FsdGVkX1+IMiygehGO7uM24ajDyNBrTIHK3fQbHg3sm+7ut6+LzOJojo1INXeVQ/bg+2hsXHzpMB31tLJj6WhEqZC9TrCkILVsGnSwNvUyjjcQhJtkiDCpFWmahqMn"
+          },
+          "apiUrl": {
+            "id": "gx-dtSCY0QNC",
+            "label": "API url",
+            "obfuscated": false,
+            "value": "https://staging-api.gethealthie.com/graphql"
+          }
+        },
+        "twilio": {
+          "accountSid": {
+            "id": "zDkN52lJi5pB",
+            "label": "Account SID",
+            "obfuscated": true,
+            "value": "U2FsdGVkX19JN8d8ZkC+RJOMhxo1bNOqPdlJXELvyj7ueV4qbxOeEuvO5nRxOHRxwbYivcxml/+hjBHhr4jzbg=="
+          },
+          "authToken": {
+            "id": "8ECH-ejS3G2S",
+            "label": "Auth token",
+            "obfuscated": true,
+            "value": "U2FsdGVkX1+j5t8FoGNjtGXGmE8ZqrfcYvkhpiZFP7+ZxRjKJRIu5ddJhKbAQKB9pf1ypkoS7SMny+1POctQKw=="
+          },
+          "fromNumber": {
+            "id": "17pQDNpN2Yop",
+            "label": "\"From\" number",
+            "obfuscated": false,
+            "value": "+13252402107"
+          }
+        },
+        "mailgun": {
+          "apiKey": {
+            "label": "API Key",
+            "value": "U2FsdGVkX19uMhm9UqSoqRlUGxUaGgOZfTvBP2jpIqiVTZi87Cfi9F+k5d4go96BDEES+F/E8AXVjRygXc47a73K7FRekWs7QFCVyUTUFc8=",
+            "obfuscated": true,
+            "id": "p4FGEcLTem9I"
+          },
+          "domain": {
+            "label": "Domain",
+            "value": "staging.awellhealth.com",
+            "obfuscated": false,
+            "id": "fL5ajyPjpNQy"
+          },
+          "fromName": {
+            "label": "From name",
+            "value": "Awell Health",
+            "obfuscated": false,
+            "id": "VQ4pIVeEYTTi"
+          },
+          "fromEmail": {
+            "label": "From email",
+            "value": "noreply@staging.awellhealth.com",
+            "obfuscated": false,
+            "id": "gMB7kx0OqveL"
+          },
+          "region": {
+            "label": "Region",
+            "value": "US",
+            "obfuscated": false,
+            "id": "4lo-RhBqik6u"
+          }
+        }
+      },
+      "constants": [
+        {
+          "id": "zparGeOAMRJQ",
+          "label": "DEVICE_DATA_ENDPOINT",
+          "value": "https://webhook.site/c8e1ada6-ae87-4a60-85ca-074d0827fc7e",
+          "obfuscated": false
+        },
+        {
+          "id": "rIwgCIcET5SL",
+          "label": "TOKEN",
+          "value": "U2FsdGVkX196yL+XCJ8NDZc7W0CxmdJxlHBYV30BOwg=",
+          "obfuscated": true
+        }
+      ],
+      "branding": {
+        "accent_color": "#20174a",
+        "hosted_page_title": "Cadence",
+        "logo_url": "https://res.cloudinary.com/da7x4rzl4/image/upload/v1704703294/STAGING%20-%20Awell%20Studio%20-%20TextEditor%20-%20Image%20upload/z4rjoyzobihfkdxw3ltr.svg",
+        "hosted_page_auto_progress": true
+      }
+    }
+  }
+]

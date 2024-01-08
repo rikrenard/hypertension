@@ -1,0 +1,130 @@
+[
+  {
+    "type": "dynamic_variable",
+    "dynamic_variable": {
+      "_key": "q47fx-rHaDgk",
+      "definition_id": "q47fx-rHaDgk",
+      "transformations": [],
+      "data_point_definition_id": "_rOXx1ff089L",
+      "data_point_property": "value",
+      "fallback": "",
+      "label": "patient_firstname",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:26:13.159Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:26:13.159Z"
+      }
+    }
+  },
+  {
+    "type": "dynamic_variable",
+    "dynamic_variable": {
+      "_key": "lvwGV04JVJpU",
+      "definition_id": "lvwGV04JVJpU",
+      "transformations": [],
+      "data_point_definition_id": "bmi_imperial.BMI",
+      "data_point_property": "value",
+      "fallback": "",
+      "label": "BMI",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:38:18.067Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:38:18.067Z"
+      }
+    }
+  },
+  {
+    "type": "dynamic_variable",
+    "dynamic_variable": {
+      "_key": "yH2jhxCLGg6t",
+      "definition_id": "yH2jhxCLGg6t",
+      "transformations": [
+        {
+          "id": "Hy4elnwgtQw6",
+          "type": "format_date",
+          "parameters": {
+            "format": "yyyy/MM/dd"
+          }
+        }
+      ],
+      "data_point_definition_id": "bmi_imperial.BMI",
+      "data_point_property": "collection_date",
+      "fallback": "",
+      "label": "DATE_OF_SUBMISSION",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:48:08.473Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:48:08.473Z"
+      }
+    }
+  },
+  {
+    "type": "dynamic_variable",
+    "dynamic_variable": {
+      "_key": "fd1SXW-fnZQX",
+      "definition_id": "fd1SXW-fnZQX",
+      "transformations": [],
+      "data_point_definition_id": "UUallA6evOuN",
+      "data_point_property": "label",
+      "fallback": "",
+      "label": "lifestyle-factors",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:50:20.810Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:50:20.810Z"
+      }
+    }
+  },
+  {
+    "type": "dynamic_variable",
+    "dynamic_variable": {
+      "_key": "np01hpDN_4Ke",
+      "definition_id": "np01hpDN_4Ke",
+      "transformations": [],
+      "data_point_definition_id": "8v2ynEUjRAUS",
+      "data_point_property": "value",
+      "fallback": "",
+      "label": "systolic",
+      "created": {
+        "user_id": "818jFr2HRKfSCqxbxsX4o",
+        "date": "2024-01-05T11:17:30.118Z"
+      },
+      "last_updated": {
+        "user_id": "818jFr2HRKfSCqxbxsX4o",
+        "date": "2024-01-05T11:17:30.118Z"
+      }
+    }
+  },
+  {
+    "type": "dynamic_variable",
+    "dynamic_variable": {
+      "_key": "zLEamwH6vfyG",
+      "definition_id": "zLEamwH6vfyG",
+      "transformations": [],
+      "data_point_definition_id": "yS8tQRt1o1HG",
+      "data_point_property": "value",
+      "fallback": "",
+      "label": "diastolic",
+      "created": {
+        "user_id": "818jFr2HRKfSCqxbxsX4o",
+        "date": "2024-01-05T11:17:50.246Z"
+      },
+      "last_updated": {
+        "user_id": "818jFr2HRKfSCqxbxsX4o",
+        "date": "2024-01-05T11:17:50.246Z"
+      }
+    }
+  }
+]

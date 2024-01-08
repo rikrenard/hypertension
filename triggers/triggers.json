@@ -1,0 +1,70 @@
+[
+  {
+    "type": "trigger",
+    "trigger": {
+      "_key": "oyyw0K7bWijY",
+      "definition_id": "oyyw0K7bWijY",
+      "pathway_id": "GkRFZQn8-4Ds",
+      "target_id": "GkRFZQn8-4Ds",
+      "target_type": "pathway",
+      "settings": {
+        "type": "extension_webhook",
+        "webhook_id": "GkRFZQn8-4Ds-healthie_appointmentCreated",
+        "rule_id": "k62X68DuQM9w"
+      },
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:22:32.985Z"
+      },
+      "last_updated": {
+        "date": "2024-01-04T09:22:33.002Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      }
+    }
+  },
+  {
+    "type": "trigger",
+    "trigger": {
+      "_key": "fF5lkRQEDhT2",
+      "definition_id": "fF5lkRQEDhT2",
+      "pathway_id": "GkRFZQn8-4Ds",
+      "target_id": "M5gOxDBKyKGE",
+      "target_type": "track",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:12:35.592Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:12:35.620Z"
+      },
+      "settings": {
+        "type": "pathway_started"
+      }
+    }
+  },
+  {
+    "type": "trigger",
+    "trigger": {
+      "_key": "dTbwRr9peee2",
+      "definition_id": "dTbwRr9peee2",
+      "pathway_id": "GkRFZQn8-4Ds",
+      "target_id": "Rvhc9wGksHtO",
+      "target_type": "track",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:56:28.096Z"
+      },
+      "last_updated": {
+        "date": "2024-01-04T09:56:45.591Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      },
+      "settings": {
+        "rule_id": "CXO6_v3cOknG",
+        "track_id": "M5gOxDBKyKGE",
+        "type": "step_completed",
+        "step_id": "bwZ9IPgQpD5t"
+      }
+    }
+  }
+]

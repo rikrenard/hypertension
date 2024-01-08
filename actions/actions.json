@@ -1,0 +1,855 @@
+[
+  {
+    "type": "action",
+    "action": {
+      "_key": "BvDPIepIZdYh",
+      "definition_id": "BvDPIepIZdYh",
+      "title": "Welcome!",
+      "step_definition_id": "EYN6OLXJHXsI",
+      "stakeholder_definition_ids": [
+        "7f0KSxNUtMu_"
+      ],
+      "location_definition_ids": [],
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:15:04.346Z"
+      },
+      "type": "message",
+      "last_updated": {
+        "date": "2024-01-04T09:16:34.469Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      },
+      "message_definition_id": "fgCv2ghJG6yL"
+    }
+  },
+  {
+    "type": "action",
+    "action": {
+      "_key": "BP6M3qlWRsYj",
+      "definition_id": "BP6M3qlWRsYj",
+      "title": "Intake - Hypertension",
+      "step_definition_id": "EYN6OLXJHXsI",
+      "stakeholder_definition_ids": [
+        "7f0KSxNUtMu_"
+      ],
+      "location_definition_ids": [],
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:27:50.083Z"
+      },
+      "type": "form",
+      "last_updated": {
+        "date": "2024-01-04T09:33:27.753Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      },
+      "form_definition_id": "qfddv2MtfKcW",
+      "form_display_mode": "conversational"
+    }
+  },
+  {
+    "type": "action",
+    "action": {
+      "_key": "Expbgl8v9WLt",
+      "definition_id": "Expbgl8v9WLt",
+      "title": "Calculation",
+      "step_definition_id": "EYN6OLXJHXsI",
+      "stakeholder_definition_ids": [],
+      "location_definition_ids": [],
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:35:12.540Z"
+      },
+      "type": "calculation",
+      "calculation_inputs": [
+        {
+          "calculation_input_id": "weight_pounds",
+          "data_point_definition_id": "LwJO9GH88iy5"
+        },
+        {
+          "calculation_input_id": "height_feet",
+          "data_point_definition_id": "f4xyxL_VBZAq"
+        },
+        {
+          "calculation_input_id": "height_inches",
+          "data_point_definition_id": "qeR3MB-4L7kQ"
+        }
+      ],
+      "last_updated": {
+        "date": "2024-01-04T09:36:31.029Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      },
+      "calculation_definition_id": "bmi_imperial"
+    }
+  },
+  {
+    "type": "action",
+    "action": {
+      "_key": "790hysEGKVJT",
+      "definition_id": "790hysEGKVJT",
+      "title": "Questionnaire Submission Confirmed",
+      "step_definition_id": "EYN6OLXJHXsI",
+      "stakeholder_definition_ids": [
+        "7f0KSxNUtMu_"
+      ],
+      "location_definition_ids": [],
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:37:14.840Z"
+      },
+      "type": "message",
+      "last_updated": {
+        "date": "2024-01-04T09:38:33.918Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      },
+      "message_definition_id": "xFbqljRz80_V"
+    }
+  },
+  {
+    "type": "action",
+    "action": {
+      "_key": "_Z9nKsDJJyCi",
+      "definition_id": "_Z9nKsDJJyCi",
+      "title": "Send SMS (with from number)",
+      "step_definition_id": "EYN6OLXJHXsI",
+      "stakeholder_definition_ids": [],
+      "location_definition_ids": [],
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:51:27.858Z"
+      },
+      "type": "plugin",
+      "plugin_key": "twilio",
+      "plugin_action_key": "sendSms",
+      "plugin_fields": [
+        {
+          "label": "\"From\" number",
+          "id": "from",
+          "type": "string",
+          "stringType": "phone",
+          "required": false,
+          "description": "The phone number that will send the text messages, it must be a Twilio phone number that you own. When left blank, the \"From\" number from the extension settings will be used."
+        },
+        {
+          "description": "The phone number you would like to send the text message to.",
+          "id": "recipient",
+          "label": "\"To\" phone number",
+          "options": {
+            "data_point_definition_ids": []
+          },
+          "required": true,
+          "stringType": "phone",
+          "type": "string",
+          "value": "+19033428784"
+        },
+        {
+          "description": "The message you would like to send.",
+          "id": "message",
+          "label": "Message",
+          "options": {
+            "slate": "[{\"type\":\"p\",\"children\":[{\"text\":\"Hi \"},{\"type\":\"dynamic-variable\",\"variableId\":\"q47fx-rHaDgk\",\"value\":\"patient_firstname\",\"children\":[{\"text\":\"{{{dynamic_variable:q47fx-rHaDgk}}}\"}],\"status\":\"VALID\"},{\"text\":\", welcome to your hypertension care program. Please complete a couple of questions so we can help you with your health concerns. Click to get started \"},{\"type\":\"hosted-pages-link\",\"stakeholderId\":\"7f0KSxNUtMu_\",\"children\":[{\"text\":\"{{{hosted_pages_link:7f0KSxNUtMu_}}}\"}]},{\"text\":\"\"}]}]",
+            "stakeholder_ids": [
+              "7f0KSxNUtMu_"
+            ],
+            "dynamic_variable_ids": [
+              "q47fx-rHaDgk"
+            ],
+            "constant_ids": []
+          },
+          "required": true,
+          "type": "text",
+          "value": "Hi {{{dynamic_variable:q47fx-rHaDgk}}}, welcome to your hypertension care program. Please complete a couple of questions so we can help you with your health concerns. Click to get started {{{hosted_pages_link:7f0KSxNUtMu_}}}"
+        }
+      ],
+      "extension_data_points": [],
+      "extension_data_point_mappings": [],
+      "last_updated": {
+        "date": "2024-01-04T09:54:48.388Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      }
+    }
+  },
+  {
+    "type": "action",
+    "action": {
+      "_key": "uwgPfMGo-Yq1",
+      "definition_id": "uwgPfMGo-Yq1",
+      "title": "Send email with template",
+      "step_definition_id": "EYN6OLXJHXsI",
+      "stakeholder_definition_ids": [],
+      "location_definition_ids": [],
+      "created": {
+        "user_id": "3oTUJn59ddtIWqS00u35E",
+        "date": "2024-01-04T13:32:58.446Z"
+      },
+      "type": "plugin",
+      "plugin_key": "mailgun",
+      "plugin_action_key": "sendEmailWithTemplate",
+      "plugin_fields": [
+        {
+          "description": "The email address of the recipient.",
+          "id": "to",
+          "label": "To",
+          "options": {
+            "data_point_definition_ids": [
+              "_qQCveb4pkoF"
+            ]
+          },
+          "required": true,
+          "type": "string",
+          "value": "{{data_point:_qQCveb4pkoF}}"
+        },
+        {
+          "description": "The name of the template you created in the Mailgun web portal.",
+          "id": "template",
+          "label": "Template",
+          "options": {
+            "data_point_definition_ids": []
+          },
+          "required": true,
+          "type": "string",
+          "value": "template_rik"
+        },
+        {
+          "description": "The subject of your email.",
+          "id": "subject",
+          "label": "Subject",
+          "options": {
+            "data_point_definition_ids": []
+          },
+          "required": true,
+          "type": "string",
+          "value": "Welcome to Turtle Care - Your Partner in Health!"
+        },
+        {
+          "description": "Pass values for variables you defined in your template.",
+          "id": "variables",
+          "label": "Variables",
+          "options": {
+            "slate": "[{\"type\":\"code_block\",\"lang\":\"json\",\"children\":[{\"type\":\"code_line\",\"children\":[{\"text\":\"{\\\"PATIENT_FIRSTNAME\\\": \\\"\"},{\"type\":\"dynamic-variable\",\"variableId\":\"q47fx-rHaDgk\",\"value\":\"patient_firstname\",\"children\":[{\"text\":\"{{{dynamic_variable:q47fx-rHaDgk}}}\"}],\"status\":\"VALID\"},{\"text\":\"\\\",\"}]},{\"type\":\"code_line\",\"children\":[{\"text\":\"\\\"URL_HOSTED_PAGES\\\":\\\"\"},{\"type\":\"hosted-pages-link\",\"stakeholderId\":\"7f0KSxNUtMu_\",\"children\":[{\"text\":\"{{{hosted_pages_link:7f0KSxNUtMu_}}}\"}]},{\"text\":\"\\\"\"}]},{\"type\":\"code_line\",\"children\":[{\"text\":\"}\"}]}]}]",
+            "stakeholder_ids": [
+              "7f0KSxNUtMu_"
+            ],
+            "dynamic_variable_ids": [
+              "q47fx-rHaDgk"
+            ],
+            "constant_ids": []
+          },
+          "required": false,
+          "type": "json",
+          "value": "{\"PATIENT_FIRSTNAME\": \"{{{dynamic_variable:q47fx-rHaDgk}}}\",\"URL_HOSTED_PAGES\":\"{{{hosted_pages_link:7f0KSxNUtMu_}}}\"}"
+        }
+      ],
+      "extension_data_points": [],
+      "extension_data_point_mappings": [],
+      "last_updated": {
+        "date": "2024-01-08T08:51:55.770Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      }
+    }
+  },
+  {
+    "type": "action",
+    "action": {
+      "_key": "UGJQWHj2_04Z",
+      "definition_id": "UGJQWHj2_04Z",
+      "title": "Get appointment",
+      "step_definition_id": "FB1p9aUxfm8d",
+      "stakeholder_definition_ids": [],
+      "location_definition_ids": [],
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:22:13.866Z"
+      },
+      "type": "plugin",
+      "plugin_key": "healthie",
+      "plugin_action_key": "getAppointment",
+      "plugin_fields": [
+        {
+          "description": "The identifier of the appointment you want to retrieve.",
+          "id": "appointmentId",
+          "label": "Appointment ID",
+          "type": "string",
+          "value": "{{data_point:GkRFZQn8-4Ds-healthie_appointmentCreated-appointmentId}}",
+          "options": {
+            "data_point_definition_ids": [
+              "GkRFZQn8-4Ds-healthie_appointmentCreated-appointmentId"
+            ]
+          }
+        }
+      ],
+      "extension_data_points": [
+        {
+          "key": "date",
+          "valueType": "date"
+        },
+        {
+          "key": "appointmentTypeId",
+          "valueType": "string"
+        },
+        {
+          "key": "appointmentTypeName",
+          "valueType": "string"
+        },
+        {
+          "key": "contactType",
+          "valueType": "string"
+        },
+        {
+          "key": "patientId",
+          "valueType": "string"
+        }
+      ],
+      "extension_data_point_mappings": [
+        {
+          "extension_data_point_key": "patientId",
+          "id": "Vtzz6CNTpngb",
+          "data_point_definition_id": "gu_JTQZ5sfRq"
+        },
+        {
+          "extension_data_point_key": "appointmentTypeId",
+          "id": "NcMXfu0tLBuf",
+          "data_point_definition_id": "hqyrrxtRYKG-"
+        },
+        {
+          "extension_data_point_key": "appointmentTypeName",
+          "id": "lIW3ShPBJ6yG",
+          "data_point_definition_id": "MZ49kmp59CGB"
+        }
+      ],
+      "last_updated": {
+        "date": "2024-01-04T09:24:23.820Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      }
+    }
+  },
+  {
+    "type": "action",
+    "action": {
+      "_key": "bnSZw2-Z09tg",
+      "definition_id": "bnSZw2-Z09tg",
+      "title": "Get patient",
+      "step_definition_id": "FB1p9aUxfm8d",
+      "stakeholder_definition_ids": [],
+      "location_definition_ids": [],
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:24:36.757Z"
+      },
+      "type": "plugin",
+      "plugin_key": "healthie",
+      "plugin_action_key": "getPatient",
+      "plugin_fields": [
+        {
+          "description": "The ID of the patient in Healthie you would like to retrieve.",
+          "id": "patientId",
+          "label": "Patient ID",
+          "type": "string",
+          "value": "{{data_point:gu_JTQZ5sfRq}}",
+          "options": {
+            "data_point_definition_ids": [
+              "gu_JTQZ5sfRq"
+            ]
+          }
+        }
+      ],
+      "extension_data_points": [
+        {
+          "key": "firstName",
+          "valueType": "string"
+        },
+        {
+          "key": "lastName",
+          "valueType": "string"
+        },
+        {
+          "key": "dob",
+          "valueType": "date"
+        },
+        {
+          "key": "gender",
+          "valueType": "string"
+        },
+        {
+          "key": "isoSex",
+          "valueType": "number"
+        },
+        {
+          "key": "email",
+          "valueType": "string"
+        },
+        {
+          "key": "phoneNumber",
+          "valueType": "telephone"
+        },
+        {
+          "key": "primaryProviderId",
+          "valueType": "string"
+        },
+        {
+          "key": "groupName",
+          "valueType": "string"
+        }
+      ],
+      "extension_data_point_mappings": [
+        {
+          "extension_data_point_key": "firstName",
+          "id": "P_qVdN_DS9jQ",
+          "data_point_definition_id": "_rOXx1ff089L"
+        },
+        {
+          "extension_data_point_key": "lastName",
+          "id": "ifjD--qJc4Mp",
+          "data_point_definition_id": "TiAoz115T4AW"
+        },
+        {
+          "extension_data_point_key": "dob",
+          "id": "uvdQkgmVSio3",
+          "data_point_definition_id": "J_-b6inH-PYm"
+        },
+        {
+          "extension_data_point_key": "email",
+          "id": "s7foM2KoCPSR",
+          "data_point_definition_id": "_qQCveb4pkoF"
+        },
+        {
+          "extension_data_point_key": "phoneNumber",
+          "id": "x6HHjrGUfVOv",
+          "data_point_definition_id": "Tm54W8P0l42b"
+        },
+        {
+          "extension_data_point_key": "primaryProviderId",
+          "id": "mxNpcT0JnIB7",
+          "data_point_definition_id": "VPWVPRz0JgNu"
+        }
+      ],
+      "last_updated": {
+        "date": "2024-01-04T09:25:43.553Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      }
+    }
+  },
+  {
+    "type": "action",
+    "action": {
+      "_key": "fSwMjS9pabVE",
+      "definition_id": "fSwMjS9pabVE",
+      "title": "Apply tag to a patient",
+      "step_definition_id": "bwZ9IPgQpD5t",
+      "stakeholder_definition_ids": [],
+      "location_definition_ids": [],
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:44:43.768Z"
+      },
+      "type": "plugin",
+      "plugin_key": "healthie",
+      "plugin_action_key": "applyTagToPatient",
+      "plugin_fields": [
+        {
+          "description": "The ID of the tag to add to the patient.",
+          "id": "id",
+          "label": "ID",
+          "required": true,
+          "type": "string",
+          "value": "433",
+          "options": {
+            "data_point_definition_ids": []
+          }
+        },
+        {
+          "description": "The ID of the patient to apply the tag on.",
+          "id": "patient_id",
+          "label": "Patient ID",
+          "required": true,
+          "type": "string",
+          "value": "{{data_point:gu_JTQZ5sfRq}}",
+          "options": {
+            "data_point_definition_ids": [
+              "gu_JTQZ5sfRq"
+            ]
+          }
+        }
+      ],
+      "extension_data_points": [],
+      "extension_data_point_mappings": [],
+      "last_updated": {
+        "date": "2024-01-04T09:44:50.936Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      }
+    }
+  },
+  {
+    "type": "action",
+    "action": {
+      "_key": "WxV_pSqnwtCr",
+      "definition_id": "WxV_pSqnwtCr",
+      "title": "Create task",
+      "step_definition_id": "bwZ9IPgQpD5t",
+      "stakeholder_definition_ids": [],
+      "location_definition_ids": [],
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:45:03.479Z"
+      },
+      "type": "plugin",
+      "plugin_key": "healthie",
+      "plugin_action_key": "createTask",
+      "plugin_fields": [
+        {
+          "description": "The ID of the patient related to this task.",
+          "id": "patientId",
+          "label": "Healthie patient ID",
+          "type": "string",
+          "value": "{{data_point:gu_JTQZ5sfRq}}",
+          "options": {
+            "data_point_definition_ids": [
+              "gu_JTQZ5sfRq"
+            ]
+          }
+        },
+        {
+          "id": "assignToUserId",
+          "label": "Assign to user",
+          "description": "The ID of the user to assign the task to. If none provided, will assign the task to the user the API key is associated with.",
+          "type": "string"
+        },
+        {
+          "description": "The content of the Task.",
+          "id": "content",
+          "label": "Content",
+          "options": {
+            "slate": "[{\"type\":\"p\",\"children\":[{\"text\":\"The patient is at high risk for adverse events (see charting note for more information). Please schedule an appointment with the dietician asap.\"}]}]",
+            "stakeholder_ids": [],
+            "dynamic_variable_ids": [],
+            "constant_ids": []
+          },
+          "required": true,
+          "type": "text",
+          "value": "The patient is at high risk for adverse events (see charting note for more information). Please schedule an appointment with the dietician asap."
+        },
+        {
+          "id": "dueDate",
+          "label": "Due date",
+          "description": "The due date of the task.",
+          "type": "date"
+        },
+        {
+          "id": "isReminderEnabled",
+          "label": "Is reminder enabled",
+          "description": "Would you like to send reminders for this task?",
+          "type": "boolean"
+        },
+        {
+          "id": "reminderIntervalType",
+          "label": "Reminder interval type",
+          "description": "At what interval would you like to send reminders? The options are \"daily\", \"weekly\", \"once\".",
+          "type": "string"
+        },
+        {
+          "id": "reminderIntervalValue",
+          "label": "Reminder interval value (weekly)",
+          "description": "When interval type is set to \"daily\" or \"once\", leave this field blank. For \"weekly\" interval, send in comma separated all lower-case days of the week (e.g wednesday, friday).",
+          "type": "string",
+          "required": false
+        },
+        {
+          "id": "reminderIntervalValueOnce",
+          "label": "Reminder interval value (once)",
+          "description": "When the interval type is set to \"daily\" or \"weekly\", leave this field blank. For \"once\" interval, set or select a date.",
+          "type": "date",
+          "required": false
+        },
+        {
+          "id": "reminderTime",
+          "label": "Reminder time",
+          "description": "Time to send the reminder. Expressed in the number of minutes from midnight.",
+          "type": "numeric"
+        }
+      ],
+      "extension_data_points": [
+        {
+          "key": "taskId",
+          "valueType": "string"
+        }
+      ],
+      "extension_data_point_mappings": [],
+      "last_updated": {
+        "date": "2024-01-04T09:46:01.249Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      }
+    }
+  },
+  {
+    "type": "action",
+    "action": {
+      "_key": "nsgRXYHrg3LW",
+      "definition_id": "nsgRXYHrg3LW",
+      "title": "Create charting note",
+      "step_definition_id": "bwZ9IPgQpD5t",
+      "stakeholder_definition_ids": [],
+      "location_definition_ids": [],
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:46:12.810Z"
+      },
+      "type": "plugin",
+      "plugin_key": "healthie",
+      "plugin_action_key": "createChartingNote",
+      "plugin_fields": [
+        {
+          "description": "The ID of the patient you would like to create a charting note for.",
+          "id": "healthie_patient_id",
+          "label": "Healthie Patient ID",
+          "required": true,
+          "type": "string",
+          "value": "{{data_point:gu_JTQZ5sfRq}}",
+          "options": {
+            "data_point_definition_ids": [
+              "gu_JTQZ5sfRq"
+            ]
+          }
+        },
+        {
+          "description": "The ID of the form you would like to create the charting note against.",
+          "id": "form_id",
+          "label": "Form ID",
+          "options": {
+            "data_point_definition_ids": []
+          },
+          "required": true,
+          "type": "string",
+          "value": "452005"
+        },
+        {
+          "description": "The content of the charting note.",
+          "id": "note_content",
+          "label": "Note content",
+          "options": {
+            "slate": "[{\"type\":\"p\",\"children\":[{\"text\":\"High-Risk Hypertension Profile\",\"bold\":true}]},{\"type\":\"p\",\"children\":[{\"text\":\"Date:\",\"bold\":true},{\"text\":\" \"},{\"type\":\"dynamic-variable\",\"variableId\":\"yH2jhxCLGg6t\",\"value\":\"DATE_OF_SUBMISSION\",\"children\":[{\"text\":\"{{{dynamic_variable:yH2jhxCLGg6t}}}\"}],\"status\":\"VALID\"},{\"text\":\"\"}]},{\"type\":\"p\",\"children\":[{\"text\":\"Clinical Findings: \",\"bold\":true}]},{\"type\":\"p\",\"children\":[{\"text\":\"BMI: \"},{\"type\":\"dynamic-variable\",\"variableId\":\"lvwGV04JVJpU\",\"value\":\"BMI\",\"children\":[{\"text\":\"{{{dynamic_variable:lvwGV04JVJpU}}}\"}],\"status\":\"VALID\"},{\"text\":\" \"}]},{\"type\":\"p\",\"children\":[{\"text\":\"BP History: History of blood pressure reading above 180/120 mmHg in the past 12 months\"}]},{\"type\":\"p\",\"children\":[{\"text\":\"High salt intake reported - often adds salt to food and frequently consumes high-salt processed foods (ICD-10 Code: Z72.4 - Inappropriate diet and eating habits)\"}]},{\"type\":\"p\",\"children\":[{\"text\":\"Lifestyle Factors: \"},{\"type\":\"dynamic-variable\",\"variableId\":\"fd1SXW-fnZQX\",\"value\":\"lifestyle-factors\",\"children\":[{\"text\":\"{{{dynamic_variable:fd1SXW-fnZQX}}}\"}],\"status\":\"VALID\"},{\"text\":\"\"}]},{\"type\":\"p\",\"children\":[{\"text\":\"Recommendations\",\"bold\":true},{\"text\":\":\"}]},{\"type\":\"p\",\"children\":[{\"text\":\"Immediate consultation with a healthcare provider for a comprehensive evaluation and management plan.\"}]},{\"type\":\"p\",\"children\":[{\"text\":\"Consideration for lifestyle modification programs and possible pharmacological interventions.\"}]},{\"type\":\"p\",\"children\":[{\"text\":\"Regular monitoring and follow-up appointments to assess and manage blood pressure and related health parameters.\"}]}]",
+            "stakeholder_ids": [],
+            "dynamic_variable_ids": [
+              "yH2jhxCLGg6t",
+              "lvwGV04JVJpU",
+              "fd1SXW-fnZQX"
+            ],
+            "constant_ids": []
+          },
+          "required": true,
+          "type": "html",
+          "value": "<p class=\"slate-p\"><strong class=\"slate-bold\">High-Risk Hypertension Profile</strong></p><p class=\"slate-p\"><strong class=\"slate-bold\">Date:</strong> <span>{{{dynamic_variable:yH2jhxCLGg6t}}}</span></p><p class=\"slate-p\"><strong class=\"slate-bold\">Clinical Findings: </strong></p><p class=\"slate-p\">BMI: <span>{{{dynamic_variable:lvwGV04JVJpU}}}</span> </p><p class=\"slate-p\">BP History: History of blood pressure reading above 180/120 mmHg in the past 12 months</p><p class=\"slate-p\">High salt intake reported - often adds salt to food and frequently consumes high-salt processed foods (ICD-10 Code: Z72.4 - Inappropriate diet and eating habits)</p><p class=\"slate-p\">Lifestyle Factors: <span>{{{dynamic_variable:fd1SXW-fnZQX}}}</span></p><p class=\"slate-p\"><strong class=\"slate-bold\">Recommendations</strong>:</p><p class=\"slate-p\">Immediate consultation with a healthcare provider for a comprehensive evaluation and management plan.</p><p class=\"slate-p\">Consideration for lifestyle modification programs and possible pharmacological interventions.</p><p class=\"slate-p\">Regular monitoring and follow-up appointments to assess and manage blood pressure and related health parameters.</p>"
+        },
+        {
+          "description": "This field allows you to mark the content as locked.",
+          "id": "marked_locked",
+          "label": "Mark as locked?",
+          "required": false,
+          "type": "boolean",
+          "value": "false",
+          "options": {
+            "data_point_definition_ids": []
+          }
+        }
+      ],
+      "extension_data_points": [],
+      "extension_data_point_mappings": [],
+      "last_updated": {
+        "date": "2024-01-04T09:51:06.062Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      }
+    }
+  },
+  {
+    "type": "action",
+    "action": {
+      "_key": "MAsyktirw394",
+      "definition_id": "MAsyktirw394",
+      "title": "Message",
+      "step_definition_id": "ajcC-jzkQSIR",
+      "stakeholder_definition_ids": [
+        "7f0KSxNUtMu_"
+      ],
+      "location_definition_ids": [],
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:55:05.272Z"
+      },
+      "type": "message",
+      "last_updated": {
+        "date": "2024-01-04T09:55:08.774Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      },
+      "message_definition_id": "IQIEuJ40Zg7L"
+    }
+  },
+  {
+    "type": "action",
+    "action": {
+      "_key": "28DiWHfMeqX6",
+      "definition_id": "28DiWHfMeqX6",
+      "title": "API call (REST)",
+      "step_definition_id": "HKelXOPjvTqE",
+      "stakeholder_definition_ids": [],
+      "location_definition_ids": [],
+      "created": {
+        "user_id": "818jFr2HRKfSCqxbxsX4o",
+        "date": "2024-01-05T11:13:07.935Z"
+      },
+      "type": "api_call",
+      "last_updated": {
+        "date": "2024-01-05T11:13:08.103Z",
+        "user_id": "818jFr2HRKfSCqxbxsX4o"
+      },
+      "api_call_definition_id": "E8Ie2WBBa1PM"
+    }
+  },
+  {
+    "type": "action",
+    "action": {
+      "_key": "yIshEJBvBwOz",
+      "definition_id": "yIshEJBvBwOz",
+      "title": "Message",
+      "step_definition_id": "uMQHYOw0BfJX",
+      "stakeholder_definition_ids": [
+        "7f0KSxNUtMu_"
+      ],
+      "location_definition_ids": [],
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T10:06:41.692Z"
+      },
+      "type": "message",
+      "last_updated": {
+        "date": "2024-01-04T10:06:47.532Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      },
+      "message_definition_id": "g7E6MQvxITyU"
+    }
+  },
+  {
+    "type": "action",
+    "action": {
+      "_key": "6-0WNdLnV99_",
+      "definition_id": "6-0WNdLnV99_",
+      "title": "Create task",
+      "step_definition_id": "uMQHYOw0BfJX",
+      "stakeholder_definition_ids": [],
+      "location_definition_ids": [],
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T08:48:19.463Z"
+      },
+      "type": "plugin",
+      "plugin_key": "healthie",
+      "plugin_action_key": "createTask",
+      "plugin_fields": [
+        {
+          "description": "The ID of the patient related to this task.",
+          "id": "patientId",
+          "label": "Healthie patient ID",
+          "type": "string",
+          "value": "{{data_point:gu_JTQZ5sfRq}}",
+          "options": {
+            "data_point_definition_ids": [
+              "gu_JTQZ5sfRq"
+            ]
+          }
+        },
+        {
+          "id": "assignToUserId",
+          "label": "Assign to user",
+          "description": "The ID of the user to assign the task to. If none provided, will assign the task to the user the API key is associated with.",
+          "type": "string"
+        },
+        {
+          "description": "The content of the Task.",
+          "id": "content",
+          "label": "Content",
+          "options": {
+            "slate": "[{\"type\":\"p\",\"children\":[{\"text\":\"Patient has a high blood pressure (\"},{\"type\":\"dynamic-variable\",\"variableId\":\"np01hpDN_4Ke\",\"value\":\"systolic\",\"children\":[{\"text\":\"{{{dynamic_variable:np01hpDN_4Ke}}}\"}],\"status\":\"VALID\"},{\"text\":\"/\"},{\"type\":\"dynamic-variable\",\"variableId\":\"zLEamwH6vfyG\",\"value\":\"diastolic\",\"children\":[{\"text\":\"{{{dynamic_variable:zLEamwH6vfyG}}}\"}],\"status\":\"VALID\"},{\"text\":\"), please reach out.\"}]}]",
+            "stakeholder_ids": [],
+            "dynamic_variable_ids": [
+              "np01hpDN_4Ke",
+              "zLEamwH6vfyG"
+            ],
+            "constant_ids": []
+          },
+          "required": true,
+          "type": "text",
+          "value": "Patient has a high blood pressure ({{{dynamic_variable:np01hpDN_4Ke}}}/{{{dynamic_variable:zLEamwH6vfyG}}}), please reach out."
+        },
+        {
+          "id": "dueDate",
+          "label": "Due date",
+          "description": "The due date of the task.",
+          "type": "date"
+        },
+        {
+          "id": "isReminderEnabled",
+          "label": "Is reminder enabled",
+          "description": "Would you like to send reminders for this task?",
+          "type": "boolean"
+        },
+        {
+          "id": "reminderIntervalType",
+          "label": "Reminder interval type",
+          "description": "At what interval would you like to send reminders? The options are \"daily\", \"weekly\", \"once\".",
+          "type": "string"
+        },
+        {
+          "id": "reminderIntervalValue",
+          "label": "Reminder interval value (weekly)",
+          "description": "When interval type is set to \"daily\" or \"once\", leave this field blank. For \"weekly\" interval, send in comma separated all lower-case days of the week (e.g wednesday, friday).",
+          "type": "string",
+          "required": false
+        },
+        {
+          "id": "reminderIntervalValueOnce",
+          "label": "Reminder interval value (once)",
+          "description": "When the interval type is set to \"daily\" or \"weekly\", leave this field blank. For \"once\" interval, set or select a date.",
+          "type": "date",
+          "required": false
+        },
+        {
+          "id": "reminderTime",
+          "label": "Reminder time",
+          "description": "Time to send the reminder. Expressed in the number of minutes from midnight.",
+          "type": "numeric"
+        }
+      ],
+      "extension_data_points": [
+        {
+          "key": "taskId",
+          "valueType": "string"
+        }
+      ],
+      "extension_data_point_mappings": [],
+      "last_updated": {
+        "date": "2024-01-08T08:49:34.633Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      }
+    }
+  },
+  {
+    "type": "action",
+    "action": {
+      "_key": "SjDFPpD2YgS3",
+      "definition_id": "SjDFPpD2YgS3",
+      "title": "Message",
+      "step_definition_id": "wmmQPZ_oa5s0",
+      "stakeholder_definition_ids": [
+        "7f0KSxNUtMu_"
+      ],
+      "location_definition_ids": [],
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T10:07:55.129Z"
+      },
+      "type": "message",
+      "last_updated": {
+        "date": "2024-01-04T10:07:59.031Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      },
+      "message_definition_id": "rKSUhLMqtG2x"
+    }
+  }
+]

@@ -1,0 +1,327 @@
+[
+  {
+    "type": "transition",
+    "transition": {
+      "_key": "k7FAl07uyL5P",
+      "definition_id": "k7FAl07uyL5P",
+      "origin": {
+        "type": "track_start",
+        "node_id": "M5gOxDBKyKGE"
+      },
+      "destination": {
+        "type": "step",
+        "node_id": "FB1p9aUxfm8d"
+      },
+      "rule_definition_id": "dRRgCMigQ9YW",
+      "default": false,
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:17:19.421Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:17:19.421Z"
+      }
+    }
+  },
+  {
+    "type": "transition",
+    "transition": {
+      "_key": "mEDNKxjaVUKA",
+      "definition_id": "mEDNKxjaVUKA",
+      "origin": {
+        "type": "step",
+        "node_id": "FB1p9aUxfm8d"
+      },
+      "destination": {
+        "type": "step",
+        "node_id": "EYN6OLXJHXsI"
+      },
+      "rule_definition_id": "xdJb73g8DTXJ",
+      "default": false,
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:17:31.094Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:17:31.094Z"
+      }
+    }
+  },
+  {
+    "type": "transition",
+    "transition": {
+      "_key": "iLDY_fhP3QFH",
+      "definition_id": "iLDY_fhP3QFH",
+      "origin": {
+        "type": "step",
+        "node_id": "EYN6OLXJHXsI"
+      },
+      "destination": {
+        "type": "step",
+        "node_id": "ajcC-jzkQSIR"
+      },
+      "rule_definition_id": "E_kTQzLW2EeX",
+      "default": false,
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:39:09.254Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:39:09.254Z"
+      }
+    }
+  },
+  {
+    "type": "transition",
+    "transition": {
+      "_key": "KPZsjrHvR6xn",
+      "definition_id": "KPZsjrHvR6xn",
+      "origin": {
+        "type": "step",
+        "node_id": "EYN6OLXJHXsI"
+      },
+      "destination": {
+        "type": "step",
+        "node_id": "bwZ9IPgQpD5t"
+      },
+      "rule_definition_id": "QBAxwNMEbMwE",
+      "default": false,
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:39:18.269Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:39:18.269Z"
+      }
+    }
+  },
+  {
+    "type": "transition",
+    "transition": {
+      "_key": "K8jQ6wBibb9f",
+      "definition_id": "K8jQ6wBibb9f",
+      "origin": {
+        "type": "step",
+        "node_id": "bwZ9IPgQpD5t"
+      },
+      "destination": {
+        "type": "track_end",
+        "node_id": "M5gOxDBKyKGE"
+      },
+      "rule_definition_id": "oLyBYU1F9jnT",
+      "default": false,
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:54:57.433Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:54:57.433Z"
+      }
+    }
+  },
+  {
+    "type": "transition",
+    "transition": {
+      "_key": "UAFo5v0v1lq4",
+      "definition_id": "UAFo5v0v1lq4",
+      "origin": {
+        "type": "step",
+        "node_id": "ajcC-jzkQSIR"
+      },
+      "destination": {
+        "type": "track_end",
+        "node_id": "M5gOxDBKyKGE"
+      },
+      "rule_definition_id": "UEJNzb5DaYi5",
+      "default": false,
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:54:59.715Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:54:59.715Z"
+      }
+    }
+  },
+  {
+    "type": "transition",
+    "transition": {
+      "_key": "DD5hHNiivrmY",
+      "definition_id": "DD5hHNiivrmY",
+      "origin": {
+        "type": "track_start",
+        "node_id": "Rvhc9wGksHtO"
+      },
+      "destination": {
+        "type": "step",
+        "node_id": "HKelXOPjvTqE"
+      },
+      "rule_definition_id": "rOGKh8pWcuDI",
+      "default": false,
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:57:10.606Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:57:10.606Z"
+      }
+    }
+  },
+  {
+    "type": "transition",
+    "transition": {
+      "_key": "JdYs1KWDE04N",
+      "definition_id": "JdYs1KWDE04N",
+      "origin": {
+        "type": "step",
+        "node_id": "HKelXOPjvTqE"
+      },
+      "destination": {
+        "type": "step",
+        "node_id": "uMQHYOw0BfJX"
+      },
+      "rule_definition_id": "wI2phXqnA28K",
+      "default": false,
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:57:47.848Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:57:47.848Z"
+      }
+    }
+  },
+  {
+    "type": "transition",
+    "transition": {
+      "_key": "DmpTmwa0ESII",
+      "definition_id": "DmpTmwa0ESII",
+      "origin": {
+        "type": "step",
+        "node_id": "HKelXOPjvTqE"
+      },
+      "destination": {
+        "type": "step",
+        "node_id": "9cnVVeeM_5YY"
+      },
+      "rule_definition_id": "89Nu8jgU8BkR",
+      "default": false,
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:57:51.586Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:57:51.586Z"
+      }
+    }
+  },
+  {
+    "type": "transition",
+    "transition": {
+      "_key": "cyVjUNG1sjG1",
+      "definition_id": "cyVjUNG1sjG1",
+      "origin": {
+        "type": "step",
+        "node_id": "9cnVVeeM_5YY"
+      },
+      "destination": {
+        "type": "step",
+        "node_id": "GKVY6rBLX6Md"
+      },
+      "rule_definition_id": "f-V3MMoN7e7O",
+      "default": false,
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T10:05:34.740Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T10:05:34.740Z"
+      }
+    }
+  },
+  {
+    "type": "transition",
+    "transition": {
+      "_key": "ryrbran7MGgz",
+      "definition_id": "ryrbran7MGgz",
+      "origin": {
+        "type": "step",
+        "node_id": "GKVY6rBLX6Md"
+      },
+      "destination": {
+        "type": "track_end",
+        "node_id": "Rvhc9wGksHtO"
+      },
+      "rule_definition_id": "t1HHjlfHVGyE",
+      "default": false,
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T10:06:02.636Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T10:06:02.636Z"
+      }
+    }
+  },
+  {
+    "type": "transition",
+    "transition": {
+      "_key": "YyNufewGybIG",
+      "definition_id": "YyNufewGybIG",
+      "origin": {
+        "type": "step",
+        "node_id": "uMQHYOw0BfJX"
+      },
+      "destination": {
+        "type": "step",
+        "node_id": "wmmQPZ_oa5s0"
+      },
+      "rule_definition_id": "epxQazJanDyd",
+      "default": false,
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T10:07:16.341Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T10:07:16.341Z"
+      }
+    }
+  },
+  {
+    "type": "transition",
+    "transition": {
+      "_key": "QctSUhPy1m-Q",
+      "definition_id": "QctSUhPy1m-Q",
+      "origin": {
+        "type": "step",
+        "node_id": "wmmQPZ_oa5s0"
+      },
+      "destination": {
+        "type": "step",
+        "node_id": "GKVY6rBLX6Md"
+      },
+      "rule_definition_id": "ws0FZoN4IC0P",
+      "default": false,
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T10:08:18.653Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T10:08:18.653Z"
+      }
+    }
+  }
+]

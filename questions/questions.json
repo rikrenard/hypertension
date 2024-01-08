@@ -1,0 +1,276 @@
+[
+  {
+    "type": "question",
+    "question": {
+      "_key": "hcwiXPdjGk9P",
+      "definition_id": "hcwiXPdjGk9P",
+      "form_definition_id": "qfddv2MtfKcW",
+      "dataPointValueType": "number",
+      "questionType": "multiple_choice",
+      "userQuestionType": "multiple_choice",
+      "key": "HOW_OFTEN_ADD_SALT",
+      "title": "How often do you add salt to your food before you eat it or as you are eating it?",
+      "options": [
+        {
+          "id": "_-tRttw1buog",
+          "value": 0,
+          "label": "Always"
+        },
+        {
+          "id": "Gqqy4Yx0B37K",
+          "value": 1,
+          "label": "Often"
+        },
+        {
+          "id": "Z0jUWvh_q5oP",
+          "value": 2,
+          "label": "Sometimes"
+        },
+        {
+          "id": "YjHmkuxJZ3tz",
+          "value": 3,
+          "label": "Rarely"
+        },
+        {
+          "id": "IaCQsQ58J6Ps",
+          "value": 4,
+          "label": "Never"
+        },
+        {
+          "id": "6Lsi1UymbxSr",
+          "value": 5,
+          "label": "Don't know"
+        }
+      ],
+      "questionConfig": {
+        "recode_enabled": false,
+        "mandatory": false,
+        "use_select": false
+      },
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:28:17.604Z"
+      },
+      "last_updated": {
+        "date": "2024-01-04T09:32:35.456Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      }
+    }
+  },
+  {
+    "type": "question",
+    "question": {
+      "_key": "d-H3LoVp6_7u",
+      "definition_id": "d-H3LoVp6_7u",
+      "form_definition_id": "qfddv2MtfKcW",
+      "dataPointValueType": "number",
+      "questionType": "multiple_choice",
+      "userQuestionType": "multiple_choice",
+      "key": "BP_ABOVE_180_120",
+      "title": "In the past 12 months, have you had a blood pressure reading above 180/120 mmHg?",
+      "options": [
+        {
+          "id": "Vdsxd3IYpXoP",
+          "value": 0,
+          "label": "Yes"
+        },
+        {
+          "id": "GxF__Ydg8a4R",
+          "value": 1,
+          "label": "No"
+        },
+        {
+          "id": "XWRX-KC_22Va",
+          "value": 2,
+          "label": "I don't know"
+        }
+      ],
+      "questionConfig": {
+        "recode_enabled": false,
+        "mandatory": false,
+        "use_select": false
+      },
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:29:12.549Z"
+      },
+      "last_updated": {
+        "date": "2024-01-04T09:32:56.565Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      }
+    }
+  },
+  {
+    "type": "question",
+    "question": {
+      "_key": "UUallA6evOuN",
+      "definition_id": "UUallA6evOuN",
+      "form_definition_id": "qfddv2MtfKcW",
+      "dataPointValueType": "numbers_array",
+      "questionType": "multiple_choice",
+      "userQuestionType": "multiple_select",
+      "key": "LIFESTYLE_FACTORS",
+      "title": "Which of the following lifestyle factors do you currently engage in? Please select all that apply.",
+      "options": [
+        {
+          "id": "KmkTdxZJsLrF",
+          "value": 0,
+          "label": "Smoking"
+        },
+        {
+          "id": "aAueW8aEeV08",
+          "value": 1,
+          "label": "Consuming alcohol regularly"
+        },
+        {
+          "id": "wY8wVLLJds9K",
+          "value": 2,
+          "label": "Physical inactivity (less than 150 minutes of moderate exercise per week)"
+        },
+        {
+          "id": "0yCgQwr_zGiL",
+          "value": 3,
+          "label": "High-stress levels (work, personal life, etc.)"
+        },
+        {
+          "id": "_lycQHBCRrZ4",
+          "value": 4,
+          "label": "Inadequate sleep (less than 7 hours per night)"
+        },
+        {
+          "id": "F6CuQvY_GaA8",
+          "value": 5,
+          "label": "Healthy diet (rich in fruits, vegetables, whole grains)"
+        },
+        {
+          "id": "Wbt4F3n4-VNE",
+          "value": 6,
+          "label": "Others"
+        },
+        {
+          "id": "u4Hd3mxkdImy",
+          "value": 7,
+          "label": "None"
+        }
+      ],
+      "questionConfig": {
+        "recode_enabled": false,
+        "mandatory": false,
+        "use_select": false
+      },
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:31:01.632Z"
+      },
+      "last_updated": {
+        "date": "2024-01-04T09:41:22.835Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      }
+    }
+  },
+  {
+    "type": "question",
+    "question": {
+      "_key": "NXdAWXRUarGN",
+      "definition_id": "NXdAWXRUarGN",
+      "form_definition_id": "qfddv2MtfKcW",
+      "dataPointValueType": "string",
+      "questionType": "input",
+      "userQuestionType": "short_text",
+      "key": "SPECIY_OTHERS_LIFESTYLE_FACTOR",
+      "title": "Please specify \"others\".",
+      "options": [],
+      "questionConfig": {
+        "recode_enabled": false,
+        "mandatory": false
+      },
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:32:05.920Z"
+      },
+      "last_updated": {
+        "date": "2024-01-04T09:32:49.461Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      },
+      "rule_definition_id": "qHKO0LQqALZ8"
+    }
+  },
+  {
+    "type": "question",
+    "question": {
+      "_key": "LwJO9GH88iy5",
+      "definition_id": "LwJO9GH88iy5",
+      "form_definition_id": "qfddv2MtfKcW",
+      "dataPointValueType": "number",
+      "questionType": "input",
+      "userQuestionType": "number",
+      "key": "WEIGHT_IN_POUNDS",
+      "title": "What is your weight in pounds?",
+      "options": [],
+      "questionConfig": {
+        "mandatory": true,
+        "recode_enabled": false
+      },
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:33:48.985Z"
+      },
+      "last_updated": {
+        "date": "2024-01-04T09:35:06.049Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      }
+    }
+  },
+  {
+    "type": "question",
+    "question": {
+      "_key": "f4xyxL_VBZAq",
+      "definition_id": "f4xyxL_VBZAq",
+      "form_definition_id": "qfddv2MtfKcW",
+      "dataPointValueType": "number",
+      "questionType": "input",
+      "userQuestionType": "number",
+      "key": "HEIGHT_IN_FEET",
+      "title": "What is your height in feet?",
+      "options": [],
+      "questionConfig": {
+        "mandatory": true,
+        "recode_enabled": false
+      },
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:34:47.443Z"
+      },
+      "last_updated": {
+        "date": "2024-01-04T09:35:03.765Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      }
+    }
+  },
+  {
+    "type": "question",
+    "question": {
+      "_key": "qeR3MB-4L7kQ",
+      "definition_id": "qeR3MB-4L7kQ",
+      "form_definition_id": "qfddv2MtfKcW",
+      "key": "HEIGHT_IN_INCHES",
+      "title": "What is your height in inches?",
+      "dataPointValueType": "number",
+      "questionType": "input",
+      "userQuestionType": "number",
+      "options": [],
+      "rule_definition_id": "B7_ca9h20b4c",
+      "questionConfig": {
+        "recode_enabled": false,
+        "mandatory": true
+      },
+      "created": {
+        "date": "2024-01-04T09:35:57.578Z"
+      },
+      "last_updated": {
+        "date": "2024-01-04T09:36:13.138Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      }
+    }
+  }
+]

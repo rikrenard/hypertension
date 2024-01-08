@@ -1,0 +1,52 @@
+[
+  {
+    "type": "track",
+    "track": {
+      "_key": "M5gOxDBKyKGE",
+      "definition_id": "M5gOxDBKyKGE",
+      "title": "Intake",
+      "key": "Intake",
+      "start_coordinates": {
+        "x": 250,
+        "y": 218
+      },
+      "end_coordinates": {
+        "x": 1632,
+        "y": 250
+      },
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:12:35.535Z"
+      },
+      "last_updated": {
+        "date": "2024-01-04T09:55:00.865Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      }
+    }
+  },
+  {
+    "type": "track",
+    "track": {
+      "_key": "Rvhc9wGksHtO",
+      "definition_id": "Rvhc9wGksHtO",
+      "title": "Health Management Plan",
+      "key": "HealthManagementPlan",
+      "start_coordinates": {
+        "x": 202,
+        "y": 266
+      },
+      "end_coordinates": {
+        "x": 1856,
+        "y": 234
+      },
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:56:28.061Z"
+      },
+      "last_updated": {
+        "date": "2024-01-04T10:06:23.462Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      }
+    }
+  }
+]

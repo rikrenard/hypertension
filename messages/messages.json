@@ -1,0 +1,120 @@
+[
+  {
+    "type": "message",
+    "message": {
+      "_key": "fgCv2ghJG6yL",
+      "definition_id": "fgCv2ghJG6yL",
+      "body": "[{\"type\":\"p\",\"children\":[{\"text\":\"Dear \"},{\"type\":\"dynamic-variable\",\"variableId\":\"q47fx-rHaDgk\",\"value\":\"patient_firstname\",\"children\":[{\"text\":\"{{{dynamic_variable:q47fx-rHaDgk}}}\"}],\"status\":\"VALID\"},{\"text\":\",\"}]},{\"type\":\"p\",\"children\":[{\"text\":\"Welcome to the Hypertension Management Program! We are committed to providing you with personalized and effective care to manage your hypertension and improve your overall health.\"}]},{\"type\":\"p\",\"children\":[{\"text\":\"In this program, you will receive guidance and support from our dedicated team of healthcare professionals. Our goal is to help you understand your condition, make informed decisions about your health, and implement lifestyle changes that can positively impact your well-being.\"}]},{\"type\":\"p\",\"children\":[{\"text\":\"Here's what you can expect from our program:\"}]},{\"type\":\"ol\",\"children\":[{\"type\":\"li\",\"children\":[{\"type\":\"lic\",\"children\":[{\"text\":\"Regular Health Monitoring\",\"bold\":true},{\"text\":\": We will regularly monitor your blood pressure and other vital health indicators.\"}]}]},{\"type\":\"li\",\"children\":[{\"type\":\"lic\",\"children\":[{\"text\":\"Personalized Advice\",\"bold\":true},{\"text\":\": Based on your health data, we will provide personalized advice on diet, exercise, and medication management.\"}]}]},{\"type\":\"li\",\"children\":[{\"type\":\"lic\",\"children\":[{\"text\":\"Ongoing Support\",\"bold\":true},{\"text\":\": You will have access to our team for any questions or concerns you might have.\"}]}]}]},{\"type\":\"p\",\"children\":[{\"text\":\"\\nTo get started, we kindly ask you to complete your initial health assessment.\"}]}]",
+      "dynamic_variable_definition_ids": [
+        "q47fx-rHaDgk"
+      ],
+      "html_body": "<p class=\"slate-p\">Dear <span>{{{dynamic_variable:q47fx-rHaDgk}}}</span>,</p><p class=\"slate-p\">Welcome to the Hypertension Management Program! We are committed to providing you with personalized and effective care to manage your hypertension and improve your overall health.</p><p class=\"slate-p\">In this program, you will receive guidance and support from our dedicated team of healthcare professionals. Our goal is to help you understand your condition, make informed decisions about your health, and implement lifestyle changes that can positively impact your well-being.</p><p class=\"slate-p\">Here&#x27;s what you can expect from our program:</p><ol class=\"slate-ol\"><li class=\"slate-li\"><div style=\"position:relative\"><strong class=\"slate-bold\">Regular Health Monitoring</strong>: We will regularly monitor your blood pressure and other vital health indicators.</div></li><li class=\"slate-li\"><div style=\"position:relative\"><strong class=\"slate-bold\">Personalized Advice</strong>: Based on your health data, we will provide personalized advice on diet, exercise, and medication management.</div></li><li class=\"slate-li\"><div style=\"position:relative\"><strong class=\"slate-bold\">Ongoing Support</strong>: You will have access to our team for any questions or concerns you might have.</div></li></ol><p class=\"slate-p\"><br/>To get started, we kindly ask you to complete your initial health assessment.</p>",
+      "attachments": null,
+      "format": "html",
+      "subject": "Welcome to Your Hypertension Management Program!",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:15:04.430Z"
+      },
+      "last_updated": {
+        "date": "2024-01-08T09:38:24.662Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      },
+      "constant_ids": []
+    }
+  },
+  {
+    "type": "message",
+    "message": {
+      "_key": "xFbqljRz80_V",
+      "definition_id": "xFbqljRz80_V",
+      "body": "[{\"type\":\"p\",\"children\":[{\"text\":\"Thank you for completing the questionnaire. Your responses have been successfully recorded. Based on the information provided, your calculated BMI is \"},{\"type\":\"dynamic-variable\",\"variableId\":\"lvwGV04JVJpU\",\"value\":\"BMI\",\"children\":[{\"text\":\"{{{dynamic_variable:lvwGV04JVJpU}}}\"}],\"status\":\"VALID\"},{\"text\":\".A member of our team will contact you shortly to discuss the next steps in your care journey.\"}]}]",
+      "dynamic_variable_definition_ids": [
+        "lvwGV04JVJpU"
+      ],
+      "html_body": "<p class=\"slate-p\">Thank you for completing the questionnaire. Your responses have been successfully recorded. Based on the information provided, your calculated BMI is <span>{{{dynamic_variable:lvwGV04JVJpU}}}</span>.A member of our team will contact you shortly to discuss the next steps in your care journey.</p>",
+      "attachments": null,
+      "format": "html",
+      "subject": "Questionnaire Submission Confirmed",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:37:14.928Z"
+      },
+      "last_updated": {
+        "date": "2024-01-04T09:38:26.924Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      },
+      "constant_ids": []
+    }
+  },
+  {
+    "type": "message",
+    "message": {
+      "_key": "IQIEuJ40Zg7L",
+      "definition_id": "IQIEuJ40Zg7L",
+      "body": "[{\"type\":\"p\",\"children\":[{\"text\":\"You are at low risk for hypertension and are excluded from our services.\"}]}]",
+      "dynamic_variable_definition_ids": [],
+      "html_body": "<p class=\"slate-p\">You are at low risk for hypertension and are excluded from our services.</p>",
+      "attachments": null,
+      "format": "html",
+      "subject": "You're at low risk, do nothing.",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:55:05.352Z"
+      },
+      "last_updated": {
+        "date": "2024-01-04T09:55:37.592Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      },
+      "constant_ids": []
+    }
+  },
+  {
+    "type": "message",
+    "message": {
+      "_key": "g7E6MQvxITyU",
+      "definition_id": "g7E6MQvxITyU",
+      "body": "[{\"type\":\"p\",\"children\":[{\"text\":\"Dear \"},{\"type\":\"dynamic-variable\",\"variableId\":\"q47fx-rHaDgk\",\"value\":\"patient_firstname\",\"children\":[{\"text\":\"{{{dynamic_variable:q47fx-rHaDgk}}}\"}],\"status\":\"VALID\"},{\"text\":\",\"}]},{\"type\":\"p\",\"children\":[{\"text\":\"Welcome to your personalized hypertension management program with Turtle Care! Today is the first day of a journey towards better health and well-being. Remember, small steps can lead to big changes. We're here to support you every step of the way. Stay tuned for daily tips and remember to check your blood pressure as advised. Your health is our priority!\"}]}]",
+      "dynamic_variable_definition_ids": [
+        "q47fx-rHaDgk"
+      ],
+      "html_body": "<p class=\"slate-p\">Dear <span>{{{dynamic_variable:q47fx-rHaDgk}}}</span>,</p><p class=\"slate-p\">Welcome to your personalized hypertension management program with Turtle Care! Today is the first day of a journey towards better health and well-being. Remember, small steps can lead to big changes. We&#x27;re here to support you every step of the way. Stay tuned for daily tips and remember to check your blood pressure as advised. Your health is our priority!</p>",
+      "attachments": null,
+      "format": "html",
+      "subject": " Introduction and Motivation",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T10:06:41.784Z"
+      },
+      "last_updated": {
+        "date": "2024-01-04T10:06:59.005Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      },
+      "constant_ids": []
+    }
+  },
+  {
+    "type": "message",
+    "message": {
+      "_key": "rKSUhLMqtG2x",
+      "definition_id": "rKSUhLMqtG2x",
+      "body": "[{\"type\":\"p\",\"children\":[{\"text\":\"Hi \"},{\"type\":\"dynamic-variable\",\"variableId\":\"q47fx-rHaDgk\",\"value\":\"patient_firstname\",\"children\":[{\"text\":\"{{{dynamic_variable:q47fx-rHaDgk}}}\"}],\"status\":\"VALID\"},{\"text\":\",\\nHope you're doing well! Today's focus is on diet - a key factor in managing high blood pressure. Try incorporating more fruits, vegetables, and whole grains into your meals. Reducing sodium intake can also make a big difference. Small changes like using herbs for flavor instead of salt can have a significant impact on your blood pressure. Keep up the good work!\"}]}]",
+      "dynamic_variable_definition_ids": [
+        "q47fx-rHaDgk"
+      ],
+      "html_body": "<p class=\"slate-p\">Hi <span>{{{dynamic_variable:q47fx-rHaDgk}}}</span>,<br/>Hope you&#x27;re doing well! Today&#x27;s focus is on diet - a key factor in managing high blood pressure. Try incorporating more fruits, vegetables, and whole grains into your meals. Reducing sodium intake can also make a big difference. Small changes like using herbs for flavor instead of salt can have a significant impact on your blood pressure. Keep up the good work!</p>",
+      "attachments": null,
+      "format": "html",
+      "subject": "The Power of a Healthy Diet",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T10:07:55.217Z"
+      },
+      "last_updated": {
+        "date": "2024-01-04T10:08:12.070Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      },
+      "constant_ids": []
+    }
+  }
+]

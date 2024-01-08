@@ -1,0 +1,205 @@
+[
+  {
+    "type": "timing",
+    "timing": {
+      "_key": "rb4QCu6uuzPv",
+      "definition_id": "rb4QCu6uuzPv",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:17:19.451Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:17:19.451Z"
+      }
+    }
+  },
+  {
+    "type": "timing",
+    "timing": {
+      "_key": "ZPS7k1IMOW6I",
+      "definition_id": "ZPS7k1IMOW6I",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:17:31.127Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:17:31.127Z"
+      }
+    }
+  },
+  {
+    "type": "timing",
+    "timing": {
+      "_key": "Jz-OMX2Sg1iq",
+      "definition_id": "Jz-OMX2Sg1iq",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:39:09.285Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:39:09.285Z"
+      }
+    }
+  },
+  {
+    "type": "timing",
+    "timing": {
+      "_key": "dcj9C_QQJgvf",
+      "definition_id": "dcj9C_QQJgvf",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:39:18.303Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:39:18.303Z"
+      }
+    }
+  },
+  {
+    "type": "timing",
+    "timing": {
+      "_key": "HhDAEa4n6KcH",
+      "definition_id": "HhDAEa4n6KcH",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:54:57.466Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:54:57.466Z"
+      }
+    }
+  },
+  {
+    "type": "timing",
+    "timing": {
+      "_key": "XmAdSkbtWo1Z",
+      "definition_id": "XmAdSkbtWo1Z",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:54:59.746Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:54:59.746Z"
+      }
+    }
+  },
+  {
+    "type": "timing",
+    "timing": {
+      "_key": "-ETwDPECVQxs",
+      "definition_id": "-ETwDPECVQxs",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:57:10.637Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:57:10.637Z"
+      }
+    }
+  },
+  {
+    "type": "timing",
+    "timing": {
+      "_key": "yDQf9UW7a68s",
+      "definition_id": "yDQf9UW7a68s",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:57:47.877Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:57:47.877Z"
+      }
+    }
+  },
+  {
+    "type": "timing",
+    "timing": {
+      "_key": "rStWWzCO1IFU",
+      "definition_id": "rStWWzCO1IFU",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:57:51.614Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T09:57:51.614Z"
+      }
+    }
+  },
+  {
+    "type": "timing",
+    "timing": {
+      "_key": "HHrhbMSrwEE6",
+      "definition_id": "HHrhbMSrwEE6",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T10:05:34.775Z"
+      },
+      "last_updated": {
+        "date": "2024-01-04T10:05:48.914Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      },
+      "delay": {
+        "unit": "week",
+        "amount": 1
+      }
+    }
+  },
+  {
+    "type": "timing",
+    "timing": {
+      "_key": "dY7Yc8oGd5EI",
+      "definition_id": "dY7Yc8oGd5EI",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T10:06:02.681Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T10:06:02.681Z"
+      }
+    }
+  },
+  {
+    "type": "timing",
+    "timing": {
+      "_key": "DnJaMAJjRcZi",
+      "definition_id": "DnJaMAJjRcZi",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T10:07:16.375Z"
+      },
+      "last_updated": {
+        "date": "2024-01-04T10:07:38.467Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      },
+      "delay": {
+        "amount": 2,
+        "unit": "day"
+      }
+    }
+  },
+  {
+    "type": "timing",
+    "timing": {
+      "_key": "cbzIWfP-Tb3o",
+      "definition_id": "cbzIWfP-Tb3o",
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T10:08:18.687Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-04T10:08:18.687Z"
+      }
+    }
+  }
+]
