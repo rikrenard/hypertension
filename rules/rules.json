@@ -90,7 +90,7 @@
         "date": "2024-01-04T09:39:09.254Z"
       },
       "last_updated": {
-        "date": "2024-01-04T09:41:40.435Z",
+        "date": "2024-01-08T19:28:10.461Z",
         "user_id": "XAFhJJHIY7e2ly9ygm0G1"
       }
     }
@@ -123,7 +123,7 @@
           "id": "DUadxi2JMdKx",
           "operand": {
             "type": "numbers_array",
-            "value": "[\"0\",\"1\",\"2\",\"3\",\"4\",\"5\"]"
+            "value": "[\"0\",\"1\",\"2\",\"3\",\"4\"]"
           },
           "operator": "is_any_of",
           "reference": "UUallA6evOuN"
@@ -135,7 +135,7 @@
         "date": "2024-01-04T09:39:18.269Z"
       },
       "last_updated": {
-        "date": "2024-01-04T09:42:29.669Z",
+        "date": "2024-01-08T19:27:10.126Z",
         "user_id": "XAFhJJHIY7e2ly9ygm0G1"
       }
     }
@@ -230,15 +230,34 @@
     "rule": {
       "_key": "wI2phXqnA28K",
       "definition_id": "wI2phXqnA28K",
-      "conditions": [],
-      "boolean_operator": "and",
+      "conditions": [
+        {
+          "id": "x3QljAwvFgR6",
+          "operand": {
+            "type": "number",
+            "value": "145"
+          },
+          "operator": "is_greater_than",
+          "reference": "8v2ynEUjRAUS"
+        },
+        {
+          "id": "dvnexN6MDMvT",
+          "operand": {
+            "type": "number",
+            "value": "70"
+          },
+          "operator": "is_greater_than",
+          "reference": "yS8tQRt1o1HG"
+        }
+      ],
+      "boolean_operator": "or",
       "created": {
         "user_id": "XAFhJJHIY7e2ly9ygm0G1",
         "date": "2024-01-04T09:57:47.848Z"
       },
       "last_updated": {
-        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
-        "date": "2024-01-04T09:57:47.848Z"
+        "date": "2024-01-08T19:37:23.912Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
       }
     }
   },

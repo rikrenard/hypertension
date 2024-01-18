@@ -830,6 +830,70 @@
   {
     "type": "action",
     "action": {
+      "_key": "Gadh6RffFjkF",
+      "definition_id": "Gadh6RffFjkF",
+      "title": "Send email",
+      "step_definition_id": "uMQHYOw0BfJX",
+      "stakeholder_definition_ids": [],
+      "location_definition_ids": [],
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-01-08T13:00:36.210Z"
+      },
+      "type": "plugin",
+      "plugin_key": "mailgun",
+      "plugin_action_key": "sendEmail",
+      "plugin_fields": [
+        {
+          "description": "The email address of the recipient.",
+          "id": "to",
+          "label": "To",
+          "options": {
+            "data_point_definition_ids": []
+          },
+          "required": true,
+          "type": "string",
+          "value": "rik.renard@hotmail.com"
+        },
+        {
+          "description": "The subject of your email.",
+          "id": "subject",
+          "label": "Subject",
+          "options": {
+            "data_point_definition_ids": []
+          },
+          "required": true,
+          "type": "string",
+          "value": "Week 1 of your hypertension care program"
+        },
+        {
+          "description": "The content of your message.",
+          "id": "body",
+          "label": "Body",
+          "required": true,
+          "type": "html",
+          "value": "<p class=\"slate-p\">Dear <span>{{{dynamic_variable:q47fx-rHaDgk}}}</span>,</p><p class=\"slate-p\">Welcome to your personalized hypertension management program with Turtle Care! Today is the first day of a journey towards better health and well-being. Remember, small steps can lead to big changes. We&#x27;re here to support you every step of the way. Stay tuned for daily tips and remember to check your blood pressure as advised. Your health is our priority!</p>",
+          "options": {
+            "slate": "[{\"type\":\"p\",\"children\":[{\"text\":\"Dear \"},{\"type\":\"dynamic-variable\",\"variableId\":\"q47fx-rHaDgk\",\"value\":\"patient_firstname\",\"children\":[{\"text\":\"{{{dynamic_variable:q47fx-rHaDgk}}}\"}],\"status\":\"VALID\"},{\"text\":\",\"}]},{\"type\":\"p\",\"children\":[{\"text\":\"Welcome to your personalized hypertension management program with Turtle Care! Today is the first day of a journey towards better health and well-being. Remember, small steps can lead to big changes. We're here to support you every step of the way. Stay tuned for daily tips and remember to check your blood pressure as advised. Your health is our priority!\"}]}]",
+            "stakeholder_ids": [],
+            "dynamic_variable_ids": [
+              "q47fx-rHaDgk"
+            ],
+            "constant_ids": []
+          }
+        }
+      ],
+      "extension_data_points": [],
+      "extension_data_point_mappings": [],
+      "last_updated": {
+        "date": "2024-01-08T13:01:14.087Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
+      }
+    }
+  },
+  {
+    "type": "action",
+    "action": {
       "_key": "SjDFPpD2YgS3",
       "definition_id": "SjDFPpD2YgS3",
       "title": "Message",
