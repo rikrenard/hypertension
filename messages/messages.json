@@ -28,11 +28,11 @@
     "message": {
       "_key": "xFbqljRz80_V",
       "definition_id": "xFbqljRz80_V",
-      "body": "[{\"type\":\"p\",\"children\":[{\"text\":\"Thank you for completing the questionnaire. Your responses have been successfully recorded. Based on the information provided, your calculated BMI is \"},{\"type\":\"dynamic-variable\",\"variableId\":\"lvwGV04JVJpU\",\"value\":\"BMI\",\"children\":[{\"text\":\"{{{dynamic_variable:lvwGV04JVJpU}}}\"}],\"status\":\"VALID\"},{\"text\":\".A member of our team will contact you shortly to discuss the next steps in your care journey.\"}]}]",
+      "body": "[{\"type\":\"p\",\"children\":[{\"text\":\"Thank you for completing the questionnaire. Your responses have been successfully recorded. Based on the information provided, your calculated BMI is \"},{\"type\":\"dynamic-variable\",\"variableId\":\"lvwGV04JVJpU\",\"value\":\"BMI\",\"children\":[{\"text\":\"{{{dynamic_variable:lvwGV04JVJpU}}}\"}],\"status\":\"VALID\"},{\"text\":\".\"}]},{\"type\":\"p\",\"children\":[{\"text\":\"We will ship a testing kit to your door shortly!\",\"bold\":true}]}]",
       "dynamic_variable_definition_ids": [
         "lvwGV04JVJpU"
       ],
-      "html_body": "<p class=\"slate-p\">Thank you for completing the questionnaire. Your responses have been successfully recorded. Based on the information provided, your calculated BMI is <span>{{{dynamic_variable:lvwGV04JVJpU}}}</span>.A member of our team will contact you shortly to discuss the next steps in your care journey.</p>",
+      "html_body": "<p class=\"slate-p\">Thank you for completing the questionnaire. Your responses have been successfully recorded. Based on the information provided, your calculated BMI is <span>{{{dynamic_variable:lvwGV04JVJpU}}}</span>.</p><p class=\"slate-p\"><strong class=\"slate-bold\">We will ship a testing kit to your door shortly!</strong></p>",
       "attachments": null,
       "format": "html",
       "subject": "Questionnaire Submission Confirmed",
@@ -41,7 +41,7 @@
         "date": "2024-01-04T09:37:14.928Z"
       },
       "last_updated": {
-        "date": "2024-01-04T09:38:26.924Z",
+        "date": "2024-01-18T10:17:19.442Z",
         "user_id": "XAFhJJHIY7e2ly9ygm0G1"
       },
       "constant_ids": []
