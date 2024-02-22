@@ -235,7 +235,7 @@
           "id": "x3QljAwvFgR6",
           "operand": {
             "type": "number",
-            "value": "145"
+            "value": "140"
           },
           "operator": "is_greater_than",
           "reference": "8v2ynEUjRAUS"
@@ -256,7 +256,7 @@
         "date": "2024-01-04T09:57:47.848Z"
       },
       "last_updated": {
-        "date": "2024-01-08T19:37:23.912Z",
+        "date": "2024-02-22T11:06:25.636Z",
         "user_id": "XAFhJJHIY7e2ly9ygm0G1"
       }
     }
@@ -266,15 +266,25 @@
     "rule": {
       "_key": "89Nu8jgU8BkR",
       "definition_id": "89Nu8jgU8BkR",
-      "conditions": [],
+      "conditions": [
+        {
+          "id": "B0mfixKVDiUA",
+          "operand": {
+            "type": "number",
+            "value": "70"
+          },
+          "operator": "is_less_than_or_equal_to",
+          "reference": "yS8tQRt1o1HG"
+        }
+      ],
       "boolean_operator": "and",
       "created": {
         "user_id": "XAFhJJHIY7e2ly9ygm0G1",
         "date": "2024-01-04T09:57:51.586Z"
       },
       "last_updated": {
-        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
-        "date": "2024-01-04T09:57:51.586Z"
+        "date": "2024-02-22T11:07:13.275Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
       }
     }
   },
