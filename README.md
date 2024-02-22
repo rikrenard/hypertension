@@ -1,5 +1,5 @@
 
-# Hurdle - Hypertension [Demo]
+# Biofourmis - Hypertension [Demo]
 
 ## 📋 Table of Contents
 

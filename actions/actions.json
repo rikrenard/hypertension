@@ -216,7 +216,7 @@
           },
           "required": true,
           "type": "string",
-          "value": "Welcome to Turtle Care - Your Partner in Health!"
+          "value": "Welcome to Biofourmis - Your Partner in Health!"
         },
         {
           "description": "Pass values for variables you defined in your template.",
@@ -240,7 +240,7 @@
       "extension_data_points": [],
       "extension_data_point_mappings": [],
       "last_updated": {
-        "date": "2024-01-08T12:55:58.297Z",
+        "date": "2024-02-22T10:35:20.536Z",
         "user_id": "XAFhJJHIY7e2ly9ygm0G1"
       }
     }
