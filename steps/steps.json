@@ -9,7 +9,6 @@
       "key": "Introduction",
       "label_definition_ids": [],
       "action_definition_ids": [
-        "uwgPfMGo-Yq1",
         "_Z9nKsDJJyCi",
         "BvDPIepIZdYh",
         "BP6M3qlWRsYj",
@@ -26,8 +25,8 @@
         "date": "2024-01-04T09:13:41.205Z"
       },
       "last_updated": {
-        "date": "2024-01-04T13:32:58.478Z",
-        "user_id": "3oTUJn59ddtIWqS00u35E"
+        "date": "2024-02-22T16:18:50.917Z",
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
       }
     }
   },
@@ -75,8 +74,8 @@
       ],
       "track_definition_id": "M5gOxDBKyKGE",
       "coordinates": {
-        "x": 1168,
-        "y": 112
+        "x": 1184,
+        "y": 80
       },
       "created": {
         "user_id": "XAFhJJHIY7e2ly9ygm0G1",

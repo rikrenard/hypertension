@@ -1,5 +1,5 @@
 
-# Biofourmis - Hypertension [Demo]
+# Masana - Hypertension [Demo]
 
 ## 📋 Table of Contents
 
