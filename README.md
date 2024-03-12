@@ -1,5 +1,5 @@
 
-# Masana - Hypertension [Demo]
+# Recovery Plus - Hypertension [Demo]
 
 ## 📋 Table of Contents
 
