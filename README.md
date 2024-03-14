@@ -1,5 +1,5 @@
 
-# Recovery Plus - Hypertension [Demo]
+# Biofourmis - Hypertension [Demo]
 
 ## 📋 Table of Contents
 
