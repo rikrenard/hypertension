@@ -272,31 +272,5 @@
         "user_id": "XAFhJJHIY7e2ly9ygm0G1"
       }
     }
-  },
-  {
-    "type": "question",
-    "question": {
-      "_key": "OwzqUUpVqU2M",
-      "definition_id": "OwzqUUpVqU2M",
-      "form_definition_id": "qfddv2MtfKcW",
-      "dataPointValueType": "boolean",
-      "questionType": "input",
-      "userQuestionType": "yes_no",
-      "key": "doYouLikeShrek",
-      "title": "Do you like Shrek?",
-      "options": [],
-      "questionConfig": {
-        "recode_enabled": false,
-        "mandatory": false
-      },
-      "created": {
-        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
-        "date": "2024-03-14T14:20:42.869Z"
-      },
-      "last_updated": {
-        "date": "2024-03-14T14:20:49.505Z",
-        "user_id": "XAFhJJHIY7e2ly9ygm0G1"
-      }
-    }
   }
 ]

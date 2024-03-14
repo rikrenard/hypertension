@@ -11,13 +11,13 @@
       "html_body": "<p class=\"slate-p\">Dear <span>{{{dynamic_variable:q47fx-rHaDgk}}}</span>,</p><p class=\"slate-p\">Welcome to the Hypertension Management Program! We are committed to providing you with personalized and effective care to manage your hypertension and improve your overall health.</p><p class=\"slate-p\">In this program, you will receive guidance and support from our dedicated team of healthcare professionals. Our goal is to help you understand your condition, make informed decisions about your health, and implement lifestyle changes that can positively impact your well-being.</p><p class=\"slate-p\">Here&#x27;s what you can expect from our program:</p><ol class=\"slate-ol\"><li class=\"slate-li\"><div style=\"position:relative\"><strong class=\"slate-bold\">Regular Health Monitoring</strong>: We will regularly monitor your blood pressure and other vital health indicators.</div></li><li class=\"slate-li\"><div style=\"position:relative\"><strong class=\"slate-bold\">Personalized Advice</strong>: Based on your health data, we will provide personalized advice on diet, exercise, and medication management.</div></li><li class=\"slate-li\"><div style=\"position:relative\"><strong class=\"slate-bold\">Ongoing Support</strong>: You will have access to our team for any questions or concerns you might have.</div></li></ol><p class=\"slate-p\"><br/>To get started, we kindly ask you to complete your initial health assessment.</p>",
       "attachments": null,
       "format": "html",
-      "subject": "Welcome to Your Hypertension Management Program! (SHREK)",
+      "subject": "Welcome to Your Hypertension Management Program! ",
       "created": {
         "user_id": "XAFhJJHIY7e2ly9ygm0G1",
         "date": "2024-01-04T09:15:04.430Z"
       },
       "last_updated": {
-        "date": "2024-03-14T14:20:37.768Z",
+        "date": "2024-03-14T14:25:29.587Z",
         "user_id": "XAFhJJHIY7e2ly9ygm0G1"
       },
       "constant_ids": []
