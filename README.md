@@ -1,5 +1,5 @@
 
-# Biofourmis - Hypertension [Demo]
+# Ilant Health - Hypertension [Demo]
 
 ## 📋 Table of Contents
 
