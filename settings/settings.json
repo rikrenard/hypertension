@@ -16,7 +16,7 @@
         "date": "2024-01-04T09:12:35.465Z"
       },
       "last_updated": {
-        "date": "2024-03-20T21:56:47.259Z",
+        "date": "2024-03-25T07:54:23.353Z",
         "user_id": "XAFhJJHIY7e2ly9ygm0G1"
       },
       "plugins": {
@@ -99,6 +99,38 @@
             "obfuscated": false,
             "value": "+13252402107"
           }
+        },
+        "athenahealth": {
+          "auth_url": {
+            "label": "Auth server URL",
+            "value": "jdjd",
+            "obfuscated": false,
+            "id": "ofVqLBKSOD7Z"
+          },
+          "client_id": {
+            "label": "Client ID",
+            "value": "U2FsdGVkX1+xzGop+SKxTKuHhJ8J7yaAcY/8UeXqYW4=",
+            "obfuscated": true,
+            "id": "TsdZwodgRbTL"
+          },
+          "client_secret": {
+            "label": "Client secret",
+            "value": "U2FsdGVkX1+sVHeJVhJKIqjhiLwdz9rn1LM52iqfqWQ=",
+            "obfuscated": true,
+            "id": "Ab3Ldk15Te-w"
+          },
+          "api_url": {
+            "label": "API URL",
+            "value": "dd",
+            "obfuscated": false,
+            "id": "Rcynjyc4yUra"
+          },
+          "scope": {
+            "label": "Scope",
+            "value": "d",
+            "obfuscated": false,
+            "id": "wJUarVQQfqT6"
+          }
         }
       },
       "constants": [
@@ -119,7 +151,7 @@
         "accent_color": "#9bacb1",
         "hosted_page_auto_progress": true,
         "hosted_page_title": "Ilant Health",
-        "logo_url": "https://res.cloudinary.com/da7x4rzl4/image/upload/v1710971806/STAGING%20-%20Awell%20Studio%20-%20TextEditor%20-%20Image%20upload/exlgyayfqxgs0rlxq61i.jpg"
+        "logo_url": "https://res.cloudinary.com/da7x4rzl4/image/upload/v1711353262/STAGING%20-%20Awell%20Studio%20-%20TextEditor%20-%20Image%20upload/nqebxc3jzadt9ws2ohcf.jpg"
       }
     }
   }

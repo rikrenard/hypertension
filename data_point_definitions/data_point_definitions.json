@@ -564,6 +564,28 @@
   {
     "type": "data_point_definition",
     "data_point_definition": {
+      "_key": "L-NvTliV3BIV",
+      "definition_id": "L-NvTliV3BIV",
+      "source_definition_id": "GkRFZQn8-4Ds",
+      "category": "extension_action",
+      "key": "ah-type",
+      "valueType": "string",
+      "possibleValues": [],
+      "optional": false,
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-03-21T00:39:47.437Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-03-21T00:39:47.437Z"
+      },
+      "qualified_key": "ah-type"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
       "_key": "M5gOxDBKyKGE-ACTIVATION",
       "definition_id": "M5gOxDBKyKGE-ACTIVATION",
       "key": "ActivationDate",

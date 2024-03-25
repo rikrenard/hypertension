@@ -1,5 +1,5 @@
 
-# Ilant Health - Hypertension [Demo]
+# Securra Health - Hypertension [Demo]
 
 ## 📋 Table of Contents
 
