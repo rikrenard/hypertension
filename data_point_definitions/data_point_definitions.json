@@ -586,6 +586,132 @@
   {
     "type": "data_point_definition",
     "data_point_definition": {
+      "_key": "yXr8pNnrgAIP",
+      "definition_id": "yXr8pNnrgAIP",
+      "source_definition_id": "GkRFZQn8-4Ds",
+      "category": "patient_identifier",
+      "key": "Athena",
+      "valueType": "string",
+      "data_point_metadata": [
+        {
+          "key": "system",
+          "value": "https://athenahealth.com/"
+        }
+      ],
+      "created": {
+        "user_id": "PaNdwiiaZlvgEpROzlWSD",
+        "date": "2024-03-26T21:47:43.444Z"
+      },
+      "last_updated": {
+        "user_id": "PaNdwiiaZlvgEpROzlWSD",
+        "date": "2024-03-26T21:47:43.444Z"
+      },
+      "qualified_key": "Athena"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
+      "_key": "wcKI9BlU8wF7",
+      "definition_id": "wcKI9BlU8wF7",
+      "source_definition_id": "GkRFZQn8-4Ds",
+      "category": "api_call",
+      "key": "patient-mental-health",
+      "valueType": "string",
+      "possibleValues": [],
+      "optional": false,
+      "created": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-03-28T09:56:35.405Z"
+      },
+      "last_updated": {
+        "user_id": "XAFhJJHIY7e2ly9ygm0G1",
+        "date": "2024-03-28T09:56:35.405Z"
+      },
+      "qualified_key": "patient-mental-health"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
+      "_key": "lEbzKrhMz7s5",
+      "definition_id": "lEbzKrhMz7s5",
+      "source_definition_id": "GkRFZQn8-4Ds",
+      "category": "patient_identifier",
+      "key": "healthiePatientId",
+      "valueType": "string",
+      "data_point_metadata": [
+        {
+          "key": "system",
+          "value": "https://www.gethealthie.com/"
+        }
+      ],
+      "created": {
+        "user_id": "PaNdwiiaZlvgEpROzlWSD",
+        "date": "2024-04-02T15:44:33.861Z"
+      },
+      "last_updated": {
+        "user_id": "PaNdwiiaZlvgEpROzlWSD",
+        "date": "2024-04-02T15:44:33.861Z"
+      },
+      "qualified_key": "healthiePatientId"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
+      "_key": "enIDuGlUo6fR",
+      "definition_id": "enIDuGlUo6fR",
+      "source_definition_id": "GkRFZQn8-4Ds",
+      "category": "patient_identifier",
+      "key": "Zus",
+      "valueType": "string",
+      "data_point_metadata": [
+        {
+          "key": "system",
+          "value": "https://zusapi.com/fhir/identifier/universal-id"
+        }
+      ],
+      "created": {
+        "user_id": "PaNdwiiaZlvgEpROzlWSD",
+        "date": "2024-04-02T15:44:38.468Z"
+      },
+      "last_updated": {
+        "user_id": "PaNdwiiaZlvgEpROzlWSD",
+        "date": "2024-04-02T15:44:38.468Z"
+      },
+      "qualified_key": "Zus"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
+      "_key": "LuDJ5iF3RWaF",
+      "definition_id": "LuDJ5iF3RWaF",
+      "source_definition_id": "GkRFZQn8-4Ds",
+      "category": "patient_identifier",
+      "key": "Elation",
+      "valueType": "string",
+      "data_point_metadata": [
+        {
+          "key": "system",
+          "value": "https://www.elationhealth.com/"
+        }
+      ],
+      "created": {
+        "user_id": "PaNdwiiaZlvgEpROzlWSD",
+        "date": "2024-04-02T15:44:45.212Z"
+      },
+      "last_updated": {
+        "user_id": "PaNdwiiaZlvgEpROzlWSD",
+        "date": "2024-04-02T15:44:45.212Z"
+      },
+      "qualified_key": "Elation"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
       "_key": "M5gOxDBKyKGE-ACTIVATION",
       "definition_id": "M5gOxDBKyKGE-ACTIVATION",
       "key": "ActivationDate",

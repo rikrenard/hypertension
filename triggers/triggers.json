@@ -56,14 +56,13 @@
         "date": "2024-01-04T09:56:28.096Z"
       },
       "last_updated": {
-        "date": "2024-01-04T09:56:45.591Z",
+        "date": "2024-03-28T14:47:41.229Z",
         "user_id": "XAFhJJHIY7e2ly9ygm0G1"
       },
       "settings": {
-        "rule_id": "CXO6_v3cOknG",
-        "track_id": "M5gOxDBKyKGE",
-        "type": "step_completed",
-        "step_id": "bwZ9IPgQpD5t"
+        "rule_id": "-6n9N7I0ncLl",
+        "type": "track_completed",
+        "track_id": "M5gOxDBKyKGE"
       }
     }
   }
